@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smitJadhav/nodejs.git"
+    "url": "https://github.com/smitJadhav/bh-node-sdk.git"
   },
   "keywords": [
     "bh-node"
   ],
-  "author": "Smit Jadhav <smitjadhav@gmail.com>",
+  "author": "Smit Jadhav <smitjadhav10@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/smitJadhav/nodejs/issues"
+    "url": "https://github.com/smitJadhav/bh-node-sdk/issues"
   },
-  "homepage": "https://github.com/smitJadhav/nodejs#readme"
+  "homepage": "https://github.com/smitJadhav/bh-node-sdk#readme"
 }
