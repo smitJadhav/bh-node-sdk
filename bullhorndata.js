@@ -439,4 +439,4 @@ const getAllAssociation = async (entityType, entityIds, associationName, fields)
     return multipleResponses;
 }
 
-module.exports.bullhorndata = { findEntity, searchEntity, findMultipleEntity, queryEntity, associateWithEntity, getAssociation, getAllAssociation }
+module.exports = { findEntity, searchEntity, findMultipleEntity, queryEntity, associateWithEntity, getAssociation, getAllAssociation }

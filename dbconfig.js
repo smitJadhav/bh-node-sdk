@@ -21,4 +21,4 @@ const pgQuery = (query) => {
 
 //pgQuery('SELECT * from app_properties');
 
-module.exports.dbconfig = { pgQuery }
+module.exports = { pgQuery }
