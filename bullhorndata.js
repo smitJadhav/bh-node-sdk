@@ -3,7 +3,6 @@ const { http, https } = require('follow-redirects');
 var url = require('url');
 var async = require('async');
 const bhRestAuthorizeUrl = process.env.bh_rest_authorizeurl;
-const bhRestAuthorizeUrl = process.env.bh_rest_authorizeurl;
 
 const authCodeOptions = {
     //host: 'auth-west9.bullhornstaffing.com',
@@ -440,4 +439,4 @@ const getAllAssociation = async (entityType, entityIds, associationName, fields)
     return multipleResponses;
 }
 
-module.exports = { findEntity, searchEntity, findMultipleEntity, queryEntity, associateWithEntity, getAssociation, getAllAssociation }
+module.exports.bullhorndata = { findEntity, searchEntity, findMultipleEntity, queryEntity, associateWithEntity, getAssociation, getAllAssociation }

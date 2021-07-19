@@ -1,5 +1,5 @@
 {
-  "name": "bh-node-sdk",
+  "name": "@smitJadhav/bh-node-sdk",
   "version": "1.0.0",
   "description": "Bullhorn node js sdk",
   "main": "bullhorndata.js",
